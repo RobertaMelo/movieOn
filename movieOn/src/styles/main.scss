@@ -1,0 +1,232 @@
+$fontSize: 50;
+@for $i from 10 through $fontSize {
+    .f-#{$i} {
+        font-size: #{$i}px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,500i');
+
+body {
+    background-color: #000000;
+    margin: 32px 32px;
+    
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width: 360px) {
+        margin: 24px 24px;
+
+        .content {
+            min-height: 650px;
+        }
+    }
+    /* Small Devices, Tablets, IPAD */
+    @media only screen and (min-width: 768px) {
+        .content {
+            min-height: 990px;
+        }
+    }
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width: 992px) {
+        .content {
+            min-height: 700px;
+        }
+    }
+}
+
+.Rectangle-4 {
+    width: 288px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-width: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-left: 16px;
+}
+
+.Rectangle-4:focus {
+    outline: 0;
+}
+
+.hollow {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-left: -32px;
+}
+
+.movie-On-logo {
+    height: 25px;
+    object-fit: contain;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Oval {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.Nome-do-Candidato {
+    height: 15px;
+    opacity: 0.75;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 8px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.Tendency {
+    width: 102px;
+    height: 24px;
+    opacity: 0.5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 28px;
+}
+
+.Bitmap {
+    width: 156px !important;
+    height: 234px !important;
+}
+
+.Movie {
+    margin: 16px !important;
+}
+
+.grad1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #000000);
+}
+/* .Rectangle {
+    border: 10px;
+    margin-left: -100px;
+    margin-top: 50px;
+    opacity: 0.7;
+} */
+
+.Banner {
+    width: 480px;
+    height: 720px;
+}
+
+.Sinopse {
+    margin-top: 32px;
+    height: 24px;
+    opacity: 0.5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Title {
+   margin-top: 222px; 
+   height: 44px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 36px;
+   font-weight: 800;
+   color: #ffffff;
+   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Info {
+  margin-top: 8px;
+  height: 16px;
+  opacity: 0.75;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  color: #ffffff;
+} 
+
+.Plot {
+    margin-top: 16px;
+    opacity: 0.75;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.layer {
+    margin-top: 20px;
+    margin-left: 16px;
+    height: 16px;
+    opacity: 0.75;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    color: #ffffff;
+}
+
+.filled {
+    margin-top: 16px;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.back {
+    margin-top: 2px;
+    height: 16px;
+    opacity: 0.75;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: #ffffff;
+}
+
+.closed {
+    margin-bottom: 5px;
+    margin-right: 8px;
+}
+
+.modal  {
+    top: '50%';
+    left : '50%';
+    right: 'auto';
+    bottom: 'auto';
+    margin-right: '-50%';
+    transform : 'translate(-50%, -50%)'
+}
+
